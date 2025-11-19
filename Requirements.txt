@@ -1,0 +1,64 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+
+# AI/ML Services
+groq>=0.4.0
+cohere>=4.0.0
+
+# Web & HTTP
+requests>=2.31.0
+bs4>=4.12.0
+
+# GUI Framework
+PyQt5>=5.15.0
+
+# Audio & Speech
+pygame>=2.5.0
+edge-tts>=6.1.0
+speech_recognition>=3.10.0
+pyaudio>=0.2.11
+# pocketsphinx>=0.1.15  # Optional: for offline speech recognition
+
+# Computer Vision & Face Recognition
+opencv-contrib-python>=4.8.0
+
+# Screen Capture & OCR
+mss>=9.0.1
+pytesseract>=0.3.10
+
+# Automation & Navigation
+pyautogui>=0.9.54
+keyboard>=0.13.5
+
+# Application Management
+AppOpener>=2.1.0
+pywhatkit>=5.4.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Document Generation
+python-pptx>=0.6.21
+
+# Utilities
+rich>=13.0.0
+mtranslate>=1.8.0
+pyperclip>=1.8.2
+
+# Optional/Development Dependencies
+# Uncomment if you need these features:
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# pydantic>=2.5.0
+# googlesearch-python>=1.2.0
+
+# Note: Some packages may require additional system dependencies:
+# - pyaudio: On Windows, may need pipwin or prebuilt wheels
+# - opencv-contrib-python: Includes face recognition modules
+# - PyQt5: May need additional system packages on Linux
+# - pytesseract: Requires Tesseract OCR engine installed on system
+#   Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+#   Linux: sudo apt-get install tesseract-ocr
+#   macOS: brew install tesseract
