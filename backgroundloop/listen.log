@@ -1,0 +1,1550 @@
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Error: Batch file not found: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\initialize.bat
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\listen.py", line 98, in <module>
+    main()
+  File "C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\listen.py", line 94, in main
+    listen_and_execute(args.phrase, batch_file_path)
+  File "C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\backgroundloop\listen.py", line 52, in listen_and_execute
+    text = recognizer.recognize_google(audio)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\speech_recognition\recognizers\google.py", line 256, in recognize_legacy
+    response_text = obtain_transcription(
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\speech_recognition\recognizers\google.py", line 215, in obtain_transcription
+    response = urlopen(request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1423, in getresponse
+    response.begin()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: this is paragraph
+Heard: the current stock
+Heard: real time current price of Apple stock price
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: open YouTube
+Heard: it's down
+Heard: page down
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+[Wed 08/13/2025 16:32:39.32] Starting listen.py iteration... 
+Using system Python 
+Warning: pocketsphinx import failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Continuing without offline recognition support
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+^C[Wed 08/13/2025 16:33:21.63] Starting listen.py iteration... 
+Using system Python 
+Warning: pocketsphinx import failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Continuing without offline recognition support
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Offline recognition available as fallback
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+[Wed 08/13/2025 16:48:35.42] Starting listen.py iteration... 
+Using system Python 
+Warning: pocketsphinx import failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Continuing without offline recognition support
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Offline recognition available as fallback
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): please tell me stock price of Apple
+Heard (online): tell me stock price
+Heard (online): Can you provide more context
+Heard (online): Jarvis open YouTube
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): press tab
+Heard (online): desktop
+Heard (online): Press Club
+Heard (online): full screen
+Heard (online): Jarvis System
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard (online): switch down
+Heard (online): page down
+Heard (online): page down
+Heard (online): scroll down
+Heard (online): zoom in
+Heard (online): full screen
+Heard (online): navigation complete
+Heard (online): go home
+Heard (online): backspace
+Heard (online): play
+Heard (online): play
+Heard (online): play
+Heard (online): Bhojpuri song
+Heard (online): space
+Heard (online): play random song on YouTube
+Heard (online): ful screen
+Heard (online): pause video
+Heard (online): play forward
+Heard (online): close
+Heard (online): close Chrome
+Heard (online): goodbye
+Heard (online): good bye
+Heard (online): Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+[Wed 08/13/2025 17:08:49.46] Starting listen.py iteration... 
+Using system Python 
+Warning: pocketsphinx import failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Continuing without offline recognition support
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Offline recognition available as fallback
+^C[Wed 08/13/2025 17:09:52.15] Starting listen.py iteration... 
+Using system Python 
+Warning: pocketsphinx import failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+Continuing without offline recognition support
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Offline recognition available as fallback
+^CUsing batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+^CUsing batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "jarvis"
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: goodbye Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: goodbye
+Heard: Kahe Na
+Heard: Ek Duniya
+Heard: Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Barsat se bachne ka
+Heard: Hindi kaisi lagi
+Heard: Ban Jaenge
+Heard: kya
+Heard: how to pronounce
+Heard: English MP3 songs download
+Heard: Shivratri
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: service
+Heard: Rajesh
+Heard: launcher best
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: launcher apps
+Heard: lunch box
+Heard: lunch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: lunch service
+Heard: dance Jarvis
+Heard: launch Chinese
+Heard: lunch Japanese
+Heard: Jarvis
+Heard: launch service
+Heard: launch service
+Heard: last Jarvis
+Heard: launch service
+Heard: launch garbage
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: good evening boss
+Heard: tell me stock price of Apple
+Heard: launch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: please application
+Heard: tell me stock price of Apple
+Heard: more details
+Heard: hello hello
+Heard: hello hello
+Heard: Jarvis
+Heard: tell me about yourself
+Heard: open YouTube
+Heard: shutdown
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: learn Japanese
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: lunch Jarvis
+Heard: landscaping
+Heard: learn Japanese
+Heard: lunch language
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: could you please provide more information
+Heard: Jarvis open YouTube
+Heard: open YouTube
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: hello
+Heard: tell me about yourself
+Heard: open setting
+Heard: open setting
+Heard: close setting
+Heard: close setting
+Heard: good night
+Heard: open setting
+Heard: goodbye
+Heard: Lux Japanese
+Heard: lunch service
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: Main Kya bataunga
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Unexpected error: [WinError 10053] An established connection was aborted by the software in your host machine
+Heard: Mujhe
+Heard: HDFC
+Heard: sexy video
+Heard: 100%
+Heard: is the climate condition
+Heard: sahmat
+Heard: phone Akhil
+Heard: Pankha Tut
+Heard: Mithun
+Heard: Anushka
+Heard: Sapne Mein naye gane Bhojpuri
+Heard: ladkiyon
+Heard: Varshini
+Heard: Mehboob
+Heard: Telugu film
+Heard: today
+Heard: Bhojpuri
+Heard: sabse
+Heard: Chhotu
+Heard: sex video
+Heard: Katrina Kaif
+Heard: kahani
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: Jarvis
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: which application frame shutting down
+Heard: application
+Heard: good morning boss
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+^CUsing batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: lunch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: launch status
+[Tue 08/19/2025 17:11:19.03] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: lunch service
+Heard: lunch service
+Heard: launch service
+[Tue 08/19/2025 17:13:18.16] Using py launcher 
+[Tue 08/19/2025 17:13:18.19] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.20] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.21] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.22] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.23] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.25] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.27] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.27] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.29] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.29] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.31] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.31] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.33] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.34] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.34] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.36] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.37] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.39] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.40] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.40] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.42] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.42] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.43] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.45] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.45] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.47] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.48] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.49] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.50] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.52] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.53] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.54] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.54] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.56] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.57] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.58] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.59] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.61] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.62] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.62] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.64] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.65] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.67] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.67] Using py launcher 
+The system cannot execute the specified program.
+[Tue 08/19/2025 17:13:18.69] Using py launcher 
+The system cannot execute the specified program.
+[Wed 08/20/2025 10:33:34.16] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: aur kya tumhare pass Tak Ko Nahin Chhod sakta hai
+Heard: karke dikhao
+Heard: Vikram Rathore
+Unexpected error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Heard: number of platforms to women
+Heard: my dear
+Heard: statistics
+Heard: kaise ho doston aaj ke video mein
+Heard: tab aapko
+Heard: gem
+Heard: sath mein baat ki Ja sake aur
+Heard: chat Mein Duniya ke sabhi top premium gas ke sath
+Heard: minimal style user friend
+Heard: give me
+Heard: Sabhi jawab mere pass hai jinhen main easily compa
+Heard: Upar button
+Heard: only in the field of climate change
+Heard: how many
+Heard: old baby consume in a day
+Heard: efficient
+Heard: daily calories based on the Standard PDF
+Heard: what is the capital city of China
+Heard: what is the capital city of Japan
+Heard: ideas recipe spelling
+Heard: make me an image of a tiger in
+Heard: bahut hi badhiya
+Heard: upload kar sakte ho aur use upload
+Heard: text Mein return form Mein a Jaaye
+Heard: web browser mein kholkar share button per click Karenge to add in home screen kar sakte hain
+Heard: only 999 rupees per month
+Heard: individual subscription ka bhi almost Aadha price
+Heard: explanation Thodi lambi aur Thodi technical hai jo sirf developers ko samajh mein Aaegi Lekin
+Heard: rotation plan kaise banaya Jaaye market driven crop rotation Kaise ki Jaaye
+Heard: exactly Kaise
+Heard: mindfulness personal growth leadership
+Heard: Ham Apni Taraf se aapko bataenge Upar Se annual subscription Lene per
+Heard: Rs 33 per month padegi instead of 999 imagine Karke
+Heard: + 5000 ki promote
+Heard: q
+Heard: Duniya Ke
+Heard: top model nikal kar aata hai Ham jaldi se jaldi koshish Karenge
+Heard: Tamil Kannada Sabhi Ke liye accessible Banaya Ja sake
+Heard: aap Sabhi logon
+Heard: 110 cost per Kisi bhi Aurat ke mukabale
+Heard: deshbhar ke Labh aur student
+Heard: block
+Heard: block
+Heard: what is meaning
+Heard: please open Salman Bobby
+Heard: boxing wala blouse
+Heard: 10 lines for sleeping
+Heard: so that they can
+Heard: will take time for the characteristics
+Heard: guns and then definitely operation in future
+Heard: education department
+Heard: 14
+Heard: 1468 Pradeep Kumar
+Heard: plastic
+Heard: song
+Heard: keep going and never look of MIS
+Heard: it rain all night and
+Heard: train result is difficult of
+Heard: everyone is known as
+Heard: please call my father
+Heard: the exciting I am because studies always
+Heard: 1635 petrol
+Heard: this place
+[Wed 08/20/2025 15:15:19.56] Using py launcher 
+No installed Python found!
+[Wed 08/20/2025 16:42:56.57] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: Pushpa
+Heard: samosa
+Heard: samosa
+Heard: Aaj grahan Samay
+Heard: aapki Rakesh
+Heard: thok ke Dharti
+[Wed 08/20/2025 17:44:55.15] Using py launcher 
+No installed Python found!
+[Thu 08/21/2025 15:07:24.60] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: uranium preliminary
+Heard: dimag Ko Nahin Samne
+Heard: best Hollywood movie
+[Fri 08/22/2025 12:44:14.48] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: lunch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: good bye
+Heard: new Nepali song in total
+Heard: army ka matrak Guna karo
+Heard: screenshot
+Heard: online consultation sevalaya
+Heard: New Zealand total army ki sankhya
+Heard: Toyota
+Heard: Toyota Innova
+Heard: 2009 -
+Heard: Haryanvi Mera
+Heard: Balaji
+Heard: Vikram ka film
+Heard: New Delhi top model
+Heard: Lulu
+Heard: Samsung
+Heard: hello hello
+Heard: hello han
+Heard: khana Bajar
+Heard: Mobile login
+Heard: Jarvis
+Heard: Reliance Jarvis
+Heard: launch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: Jarvis tell me stock price of Apple
+Heard: Jarvis open YouTube
+Heard: please down
+Heard: go to n
+Heard: home page
+Heard: zoom in 10%
+Heard: close YouTube
+Heard: jaruri hai yahan per jo hai ham log uska please
+Heard: Ek Aur maja Aaya Hai
+Heard: constipation ke liye specifically
+Heard: hydrating set kijiye
+Heard: Mujhe Achcha lagta hai
+Heard: which Independence
+Heard: educational services online
+Heard: what can we do
+Heard: what can we do
+Heard: everything about
+Heard: about
+Heard: educational services
+Heard: injection
+[Tue 08/26/2025  7:51:39.77] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: Bahut Si
+Heard: Rahul Mandal
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: hello
+Heard: hello hello
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Unexpected error: [WinError 10053] An established connection was aborted by the software in your host machine
+Heard: Platinum Platinum
+Heard: Google change
+Heard: friend request
+Heard: din ke liye
+Heard: sexy picture latest
+Heard: Suryavanshi bhajan
+Heard: oneplus
+Heard: bhai sahab Kya Dekh Rahe Hain
+Heard: Rakshabandhan
+Heard: Chhota
+Heard: longest
+Heard: 78
+Heard: Laundiya Laundiya
+Heard: Ram ji
+Heard: sexy video
+Heard: Uncha Uncha
+Heard: random fire advance server
+Heard: sath
+Heard: Kacche Dhaage song
+Heard: Rekha Khel kar Rakhna
+Heard: stylish name
+Heard: Ekta Kapoor
+Heard: what is
+Heard: Google Kutti kutti
+Heard: 845
+Heard: lulubox
+Heard: kathin in English
+Heard: Krishna bhajan
+Heard: Instagram download
+Heard: Rangeela Rangeela
+Heard: Geeta ji
+Heard: music
+Heard: battery dekhne wala
+Heard: Max Sapna wala Hota
+Heard: Samsung
+Heard: Pani kab girega
+Heard: Hyderabad
+Heard: brahmastra
+Heard: happy
+Heard: Sultan picture
+Heard: time kya hua
+Heard: Rajasthan University
+Heard: hello
+Heard: abhi tak ka natak
+Heard: swimming pool in English
+Heard: Bhojpuri song HD video
+Heard: bhai sahab bahut Khabar Dete Hain
+Heard: example ya Phool Temple
+Heard: actress name
+Heard: Orion
+Heard: Janki
+Heard: Golden Matka
+Heard: awesome
+Heard: sabse Achcha
+Heard: Ek
+Heard: Baba Jaan
+Heard: saamp wala saamp wala
+Heard: 18
+Heard: ka kha ga gha
+[Sat 09/06/2025 19:46:29.15] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Unexpected error: [Errno -9988] Stream closed
+Unexpected error: [Errno -9988] Stream closed
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+Unexpected error: 'NoneType' object has no attribute 'close'
+[Tue 09/23/2025 12:15:54.33] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: good bye Janu
+Heard: goodbye
+Heard: goodbye
+Heard: exit
+[Mon 09/29/2025 13:46:24.29] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: close button
+Heard: kaisi ho tum main but Kasam
+Heard: gazal
+Heard: Chhod Dun kya
+Heard: function
+Heard: shortcut
+Heard: Tappu
+[Thu 10/09/2025 13:26:33.40] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: hello service
+Heard: Jarvis open YouTube
+Heard: just tell me about potential energy
+Heard: plant service
+Heard: hello service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: hello
+Heard: tell me about yourself
+Heard: why you are not responding to the query anymore
+Heard: goodbye service
+Heard: good bye
+Heard: Satta
+Heard: Kerala lottery
+Heard: hello Jarvis
+Heard: hello
+Heard: tell me stock price of Apple
+Heard: happy anniversary
+Heard: hello jar
+Heard: open YouTube
+Heard: stock price of Apple Apple
+Heard: tell me some pressure backup
+Heard: I had already given API in 30
+Heard: hello Jarvis
+Heard: tell me stock price of Apple
+Heard: tell me a joke tell me stock price of Apple
+Heard: tell me stock price of Apple
+Heard: say stock price of Apple
+Heard: tell me stock price of Apple
+Heard: Jarvis open YouTube
+Heard: tell me stock price of
+Heard: tell me stock price of
+Heard: open Chrome
+[Thu 10/09/2025 14:30:57.12] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: open YouTube
+Heard: open YouTube
+Heard: tell me stock price of Apple
+Heard: about
+Heard: Assam
+Heard: please
+Heard: open YouTube
+Heard: open YouTube open YouTube
+Heard: open YouTube
+Heard: please try again
+[Fri 10/10/2025 18:37:49.56] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: hello Jarvis
+Heard: chocolate cartoon
+Heard: how to
+Heard: Christian democratic
+Heard: best ringtones
+Heard: Aurangabad
+Heard: most popular
+Heard: Kiran
+Heard: Ashok
+Heard: Dhoni
+Heard: Bareilly Shiv Charcha
+Heard: language
+Heard: Singh Rashi Walon
+Heard: body washing machine
+Heard: new songs
+Heard: 5 class
+Heard: Jungle wali film
+[Sat 11/01/2025 14:05:50.30] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: good boys always
+Heard: launch service
+Heard: launch Jarvis
+Trigger phrase detected. Executing batch file...
+Launched: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Heard: 87 system
+Heard: navigation
+Heard: good bye Jarvis
+[Mon 11/03/2025 19:15:35.25] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: hello
+Heard: hello how can I assist you
+Heard: Play Store
+Heard: close Chrome
+Heard: close Chrome
+Heard: open YouTube
+Heard: hello hello Jarvis
+Heard: Facebook application
+Heard: good evening boss
+Heard: hello Rajesh
+Heard: increase volume
+Heard: Unmute
+Heard: unm
+Heard: open YouTube
+Heard: close Matka
+Heard: system shutdown complete
+Heard: ham
+Heard: ambulance wali video
+Heard: probability
+Heard: dhanyvad namaskar
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Speech recognition service error: recognition connection failed: [Errno 11001] getaddrinfo failed
+Speech recognition service error: recognition connection failed: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Heard: exported into the nature of man to fight
+Heard: 8595 kg price
+Heard: it is formation Punjab
+Heard: distributed element
+Heard: Punjab
+Heard: Himachal Pradesh
+Heard: my
+Heard: background cricket
+Heard: great grandfather name
+Heard: was always
+Heard: fitness
+Heard: playground ka it is like
+Heard: atom is a place in England
+Heard: YouTube mein towards that
+Heard: subscribe
+Heard: requirement
+Heard: it was actually
+Heard: it is
+Heard: Northeast Mein Manipur and also
+Heard: but then
+Heard: look at Neeraj Chopra
+Heard: notice that comes from Kurnool
+Heard: infantry job normal
+Heard: from Tamil Nadu people are there South se
+Heard: chawal khane wale
+Heard: performing at the effect of
+Heard: college time Mein Apne Pairon Ke Niche
+Heard: and you are preparing a normal time to comment
+Heard: it will not go for underwater timings
+Heard: and
+Heard: compared to
+Heard: give a person you don't have
+Heard: Jisko Hindi mein picture bolate Hain Jo bhi aap bolate ho aapka
+Heard: people will not
+Heard: bicycle feel the selection process
+Heard: it is only mission accomplishment
+Heard: and you will be the last of the matter
+Heard: is bloody trained to do everything
+Heard: respite to become
+Heard: aaj ki abhi Sharab Chhod Gai 3 Sal Ho Gaye pahunche
+Heard: it is not like today is going and climbing mount
+Heard: Ab To Kafi militancy kam ho gai hai
+Heard: take
+Heard: that is all important
+Heard: Android 2030 km a day so that is
+Heard: tum humko
+Heard: I am not doing the job which I'm supposed to do
+Heard: key extreme violence ke aaspaas
+Heard: generally tends to be in the biggest fear people have
+Heard: but when you are you when you are your colleagues
+Heard: you are much more compassionate
+Heard: bahut jyada sikhata hai abhi
+Heard: strings of J&K in fields in
+Heard: friends
+Heard: Bani Padi thi
+Heard: who is there
+Heard: Patit
+Heard: how
+Heard: you go for an operation
+Heard: no I mean
+Heard: Jindagi Chali gai
+Heard: Jo extreme violence hai isliye aapko
+Heard: compassion
+Heard: the only thing is that you are
+Heard: it is harder to press the triggers
+Heard: it was much more
+Heard: project kaun si Pata Lag jaati
+Heard: you understand
+Heard: but then you
+Heard: and it has gone
+Heard: desired and brotherhood Bank design
+Heard: do you think it's coded into the nature of man to find
+Heard: go to the history
+Heard: if Ukraine will end
+Heard: it is the most basic thing of actor
+Heard: YouTube film
+Heard: 13 kilo
+Heard: smoking
+Heard: I am sure
+Heard: internal mental dialogue kya hai jawab
+Heard: Mujhe 30 km hai na mere ko Pura
+Heard: you are mentally now
+Heard: show the point
+Heard: unke Re settlement
+Heard: protection Kapoor
+Heard: I need to read
+Heard: mujhe lagta hai best doctor
+Heard: towards a goal or yah sab chijen
+Heard: 90 days transformation batao
+Heard: thank you participate in the Physics competition
+Heard: early morning fitness ko kaise
+Heard: aapane Apna Kam kar liya
+Heard: I don't have a game
+Heard: where is the depression
+Heard: what's this podcast you want to meet
+Heard: literally from your inner surface
+Heard: Research Institute
+Heard: before your body
+Heard: most disconnect karne lage
+Heard: 80% of the people
+Heard: Pune mein
+Heard: people are
+Heard: so how does it stop you
+Heard: 2142
+Heard: what would be the best version of 47
+Heard: pura din hi chal chal gaya aaram se
+Heard: kind of person
+Heard: Man ke pet se breakup
+Heard: it is house
+Heard: aapane pahla contact
+Heard: 2011 12 people
+Heard: it is where you want to try the
+Heard: you start writing but you you can write
+Heard: I am not good
+Heard: aap Jitna Mushkil time mein
+Heard: suffering ko Karte jao
+Heard: that you find that
+Heard: I think so
+Heard: 1920
+Heard: at 1920 the point
+Heard: people ask
+Heard: UPSC ka paper clear
+Heard: so you want to become a particular thing
+Heard: Jaipur social media sensation Nahin Hai
+Heard: loved in my life
+Heard: Baki
+Heard: about a certain time Jammu
+Heard: Kathputli hi lost faith in the idea of his country
+Heard: is level ki third class education
+Heard: generation
+Heard: how do you deal with that in loving your country
+Heard: I do what I am supposed to do so
+Heard: vah wala point
+Heard: you are doing a job there are
+Heard: there are people who are doing the job I know
+Heard: the point I am supposed to do the job
+Heard: never happened ki mere ko task Milao
+Heard: in terms of references in guidelines for
+Heard: has to be neutralized civilians have should not
+Heard: heart in animal
+Heard: when it comes to patriotism
+Heard: measures instituted
+Heard: banaa sakte hain kar sakte hain
+Heard: legislature and judiciary
+Heard: kya
+Heard: what my days
+Heard: we must do what is right
+Heard: democratic country
+Heard: select Hui Hai Sab Kuchh
+Heard: getting paid and what doing the job
+Heard: ek hi Jagah per ko kar rahe ho theek hai
+Heard: read this guys used to come and used
+Heard: very friend very very
+Heard: single roti
+Heard: 6070
+Heard: is personal discipline
+Heard: you cannot control it is self discipline
+Heard: this is what I am trying to say
+Heard: which is not the case in India
+Heard: Institution of India and individual of India individual of India responsibility
+Heard: train laga do
+Heard: what country something that is its uncomparable
+Heard: African countries
+Heard: aapke
+Heard: Ek chij Hai
+Heard: later I think so you be your old player
+Heard: I am not fighting and disputing that the point
+Heard: Putin for
+Heard: we ask people of this country
+Heard: videos of hard Level Examination
+Heard: what competent enough to do the job
+Heard: the US does not understand is that China and India
+Heard: koi bhi prime minister India ka
+Heard: what are you doing
+Heard: it is really
+Heard: China and Russia its performance
+Heard: believe in alphabet
+Heard: Hollywood movie
+Heard: politics and everything even if you are not directly involved you are involved
+Heard: he is also
+Heard: honorable commerce minister
+Heard: fall of October
+Heard: this should be
+Heard: which Indian most of the world are ok
+Heard: India cricket
+Heard: political
+Heard: who is in control and
+Heard: boat Trump and Modi has
+Heard: Ek Sabha address
+Heard: 25 years
+Heard: so that time
+Heard: contractor and he was
+Heard: 5055
+Heard: Kazakhstan was became independent
+Heard: it is much
+Heard: and it's not story
+Heard: mere ko
+Heard: too good
+Heard: sardiyon Mein - 5 0 0 0 0 0
+Heard: any computer
+Heard: imagine what kind of company
+Heard: generally the brief is about
+Heard: co-ordinate human resource
+Heard: down to a particular area
+Heard: will be placed at places Jahan per movement hui thi Devendra tracking down
+[Wed 11/05/2025 10:26:32.73] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
+Heard: price of education system
+Heard: Jarvis navigate to start
+Heard: language open board
+Heard: open MS Word
+Heard: are you looking my desktop screen
+Heard: open WhatsApp
+Heard: scroll down
+Heard: navigation company information
+Heard: open unread message
+Heard: goodbye
+Heard: hello
+Heard: hello hello
+[Wed 11/19/2025  8:46:23.74] Using py launcher 
+Using batch file: C:\Users\Dell\OneDrive\Desktop\my coding practices\python practice\JARVIS-AI 2.0\JARVIS_START.bat
+Initializing microphone. Please remain quiet...
+Listening for the phrase: "launch jarvis"
